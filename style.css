@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Базовые настройки */
+body{
+    background-color: #fdf3ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0;
+    text-decoration: underline 3px;
+    text-decoration-color: #8946a8;
+}
+h2 {
+    font-size: 20px;
+    opacity: 0.7;
+    margin: 10px 0;
+}
+
+h3 {
+    color: #8946a8;
+}
+a {
+    color: #5a2075;
+}
+a::{
+    color: #5a2075;
+}
+p{
+    font-weight: 400;
+
+}
+
+li::marker {
+    color: #8946a8;
+}
+
+td{
+    padding-left: 20px;
+}
+/* Header */
+
+.container {
+    max-width: 1000px;
+    margin: 60px auto;
+}
+
+.base__data {
+    max-width: 80%;
+}
+
+
+.header__ul{
+    list-style: none;
+    padding:0;
+}
+
+.ava__card {
+
+
+}
+
+.ava__img {
+    width:200px;
+    height: 200px;
+    margin-left: 210px;
+
+
+    object-fit: cover;
+    
+    border: 3px solid #8946a8;
+    border-radius: 50%;
+
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.ava__img:hover {
+    transform: scale(1.05);
+    border-color: #ae00ff;
+    box-shadow: 5px 4px 8px rgba(80, 0, 117, 0.3) ;
+}
+
+.header .container{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header_li{
+    opacity: 0.6;
+}
+
+
+
+/* Инофрмация */
+.main .container {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.main_table {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 200px;
+}
+
+.left__td{
+    background-color: #e2c5ee;
+    text-align: right;
+    text-decoration: underline;
+    padding: 15px 10px;
+    vertical-align: text-top;
+    font-weight: 300;
+}
+
+.main__p{
+    opacity: 0.8;
+}
